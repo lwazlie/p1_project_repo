@@ -35,7 +35,8 @@ aviation_df.isnull().sum().sort_values(ascending=False)
 ###  Data cleaning steps
 1. Preserve complete critical columns.
 2. impute logical values where possible.
-3. drop columns with massive missingness#### Key observations:
+3. drop columns with massive missingness.
+4. #### Key observations:
 - we have 76,307 total records
 - criticak identification fields are complete.
 - aircraft details have a significant missing values.
